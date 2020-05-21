@@ -45,7 +45,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 ### 步骤 ###
    *** 有错误/问题请看:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***   
 
-**如果想从AutoApiSecret项目直接升级**
+一，**如果想从AutoApiSecret项目直接升级**
 
   可以把本项目代码下载，然后把里面部分文件更新进AutoApiSecret:
   * 把 AutoApiSecret 的 1.py 删除，再把本项目的1.py 上传上去
@@ -56,7 +56,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
   
   * 把 AutoApiSecret 的.github/workflow/autoapi.yml 删除，再把本项目的 .github/workflow/AutoApiSR.yml 上传上去
 
-**如果是以前从未接触AutoApi系列项目的**
+二，**如果是以前从未接触AutoApi系列项目的**
 * 第一步，先大致浏览[原教程](https://blog.432100.xyz/index.php/archives/50/)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
 
 * 第二步，登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到你自己的账号，然后你账号下会出现一个一模一样的项目，接下来的操作均在你的这个项目下进行。（看不到图片/图裂请科学上网）
